@@ -1,9 +1,10 @@
-# Codecademy Engineering Homebrew Bootstrap
+# Codecademy Engineering Bootstrap Tap
+
+This is Codecademy's Homebrew "tap", allowing control over the specific versions of formulae we need.
 
 > Homebrew’s versions should not be used to “pin” formulae to your personal requirements. You should instead create your own tap for formulae you or your organisation wish to control the versioning of
-- https://docs.brew.sh/Versions
-
-This is Codecademy's "tap", allowing control over the specific versions of formulae we need.
+> 
+> https://docs.brew.sh/Versions
 
 ## How do I install these formulae?
 
