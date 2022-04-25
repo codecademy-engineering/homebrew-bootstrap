@@ -7,7 +7,7 @@ class HelmAT334 < Formula
   license "Apache-2.0"
   head "https://github.com/helm/helm.git"
 
-  depends_on "go" => :build
+  depends_on "go@1.17" => :build
 
   def install
     system "make", "build"
