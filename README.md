@@ -14,12 +14,21 @@ Or `brew tap codecademy-engineering/bootstrap` and then `brew install <formula>`
 
 ## Adding new Formulae
 
-To add a formula version that is otherwise available in Homebrew core, use the `extract` command, e.g.:
+To add a formula version that is otherwise available in Homebrew core:
+
+1. Create a new feature branch in your local bootstrap homebrew tap
+
+Command for navigating to the local tap: `cd "$(brew --prefix)/Homebrew/Library/Taps/codecademy-engineering/homebrew-bootstrap"`
+
+2. Use the `extract` command
+
 ```
 brew extract --version 3.3.4 helm codecademy-engineering/bootstrap
 ```
 
 Or you may manually write formulae in `./Formula/`.
+
+3. Verify that this formula can be installed correctly with `brew install` and make a PR
 
 ## Documentation
 
